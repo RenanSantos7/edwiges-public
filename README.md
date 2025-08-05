@@ -22,7 +22,7 @@ O deploy do projeto foi feito pela [Vercel](https://vercel.com/) e está dispon�
 
 Este projeto foi criado usando [Vite](https://vite.dev), portanto você pode seguir a documentação desse script para fazer deploy do site localmente.
 
-No caso, primeiro você precisará baixar o projeto com executando o seguinte comando no terminal:
+No caso, primeiro você precisará baixar o projeto executando o seguinte comando no terminal:
 
 ```
 git clone https://github.com/RenanSantos7/ola-mundo-react-router.git
@@ -40,7 +40,7 @@ E por fim rode o projeto com:
 npm run start
 ```
 
->[!warning] Observação:
+>[!WARNING]
 >Note que o comando para iniciar o projeto é `npm run start` e não `npm run dev` como é o comum no Vite. Isso porque o primeiro comando, além de iniciar o vite inicia antes dele o json-server para suprir de dados a aplicação, mocando um *back-end*.
 >Você ainda pode usar `npm run dev`, para iniciar apenas o vite.
 
