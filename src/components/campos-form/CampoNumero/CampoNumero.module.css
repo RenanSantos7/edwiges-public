@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    flex-grow: 4;
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    background-color: var(--inputbg);
+    border: 1px solid var(--cinza);
+    padding: 0;
+    border-radius: var(--border-radius-menor);
+    min-height: 2.5rem;
+    align-self: start;
+    overflow: hidden;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.campo {
+    padding: .5rem 1rem;
+    color: var(--texto);
+    font-weight: normal;
+    width: 6ch;
+    background-color: var(--inputbg);
+    text-align: right;
+}
+
+.campo:focus {
+    outline: none;
+}
+
+.btMais, .btMenos {
+    width: 1rem;
+    padding: .6rem;
+    height: 100%;
+    font-size: 1.5rem;
+}
+
+.btMais:hover, .btMenos:hover {
+    background-color: var(--cinza2);
+}
+
+.btMais:active, .btMenos:active {
+    transform: translateY(1px);
+}

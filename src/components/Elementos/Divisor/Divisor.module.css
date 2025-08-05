@@ -1,0 +1,19 @@
+.horizontal {
+    width: 100%;
+    height: 2px;
+    border-top: 1px solid var(--cinza);
+    background-color: var(--cinza2);
+}
+
+.vertical {
+    height: 100px;
+    width: 2px;
+    margin-block: auto;
+    border-right: 1px solid var(--cinza);
+    background-color: var(--cinza4);
+}
+
+.horizontal + .horizontal,
+.vertical + .vertical {
+    display: none;
+}

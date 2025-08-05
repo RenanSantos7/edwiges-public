@@ -1,0 +1,31 @@
+.campoMoedaContainer {
+    font-size: 1rem;
+    color: var(--texto);
+}
+
+.label {
+    font-size: 1em;
+}
+
+.campoMoeda {
+    background-color: var(--inputbg);
+    border: 1px solid var(--cinza);
+    padding: .5rem;
+    border-radius: 8px;
+    width: 100%;
+    margin: 1px;
+}
+
+.campoInput {
+    width: 0;
+    overflow: hidden;
+}
+
+.campoInput:focus {
+    outline: none;
+}
+
+.campoMoeda:has(input:focus) {
+    margin: 0;
+    border: 2px solid var(--accent-color)
+}

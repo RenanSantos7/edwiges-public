@@ -1,0 +1,41 @@
+.registro__container {
+    width: 100vw;
+    min-height: 100vh;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.logo {
+    height: 100px;
+    width: 350px;
+}
+
+.registro__card {
+    width: 450px;
+    background-color: var(--bg-box);
+    border: 1px solid var(--cinza);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+}
+
+.registro__card h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.entre a {
+    font-weight: bold;
+}

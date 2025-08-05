@@ -1,0 +1,7 @@
+.papel {
+    background-color: var(--bg-box);
+    border: 1px solid var(--cinza);
+    border-radius: var(--border-radius);
+	box-shadow: var(--shadow);
+	padding: 1.5rem;
+}

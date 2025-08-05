@@ -1,0 +1,14 @@
+.procedimentos__cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 2rem;
+}
+
+.procedimentos__cabecalho h2 {
+    margin: 0;
+}
+
+.procedimentos__cabecalho a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+.container {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+.btTarefa {
+    background-color: var(--accent-color);
+    color: white;
+    padding: .5rem;
+    --tamanho: 48px;
+    width: var(--tamanho);
+    height: var(--tamanho);
+    border-radius: var(--border-radius);
+}

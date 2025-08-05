@@ -1,0 +1,15 @@
+.calculadora {
+    width: min(700px, 100%);
+}
+
+.entrada {
+    margin-block: 1rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.entrada__input {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}

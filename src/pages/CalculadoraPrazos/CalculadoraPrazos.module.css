@@ -1,0 +1,109 @@
+.calculadora {
+    width: 400px;
+}
+
+.calculadora__label {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.calculadora__campo {
+    background-color: var(--inputbg);
+    border: 1px solid var(--cinza);
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 8px;
+    width: 100%;
+    min-height: 2.5rem;
+    color: var(--texto);
+    font-weight: normal;
+}
+
+.termoFinal {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.calculadora label {
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+#termo-final {
+    background-color: var(--inputbg);
+    border: 1px solid var(--cinza);
+    padding: .5rem;
+    border-radius: 8px;
+    height: 40px;
+}
+
+
+
+
+/*
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    max-width: 1200px;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    width: 100%;
+}
+
+.grupo__maior {
+    flex-grow: 3;
+}
+
+.grupo label {
+    width: 100%;
+    flex-grow: 1;
+}
+
+input, textarea, select, option {
+}
+
+input:focus,
+textarea:focus
+select:focus {
+    color: var(--texto)
+}
+
+textarea {
+    min-height: 200px;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: end;
+}
+
+#botao-pronto {
+    width: 100px;
+    background-color: var(--azul-medio);
+    padding: .8rem 1rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+}
+
+#botao-pronto:disabled {
+    color: var(--cinza)
+}
+
+#botao-pronto:disabled:hover {
+    -webkit-translate: -200px 0;
+        translate: -200px 0;
+}
+
+*/

@@ -1,0 +1,47 @@
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    flex-grow: 4;
+}
+
+.input {
+    background-color: var(--inputbg);
+    border: 1px solid var(--cinza);
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 8px;
+    width: 100%;
+    color: var(--texto);
+    flex: 1;
+    
+    &:focus {
+        outline: 3px solid var(--accent-color);
+    }
+}
+
+.input.erro {
+    border-color: var(--perigo);
+    outline: 1px solid var(--perigo);
+}
+
+.maior {
+    flex-grow: 10;
+}
+
+.menor {
+    flex-grow: 1;
+    max-width: 120px;
+}
+
+.textarea {
+    .input {
+        min-height: 180px;
+    }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    .input::placeholder {
+        color:hsl(198, 5%, 60%);
+    }
+}

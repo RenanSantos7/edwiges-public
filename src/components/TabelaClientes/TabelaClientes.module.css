@@ -1,0 +1,15 @@
+.tabelaClientes__cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 2rem;
+}
+
+.tabelaClientes__cabecalho h2 {
+    margin: 0;
+}
+
+.tabelaClientes__cabecalho a:hover {
+    text-decoration: underline;
+    color: var(--azul-medio);
+}

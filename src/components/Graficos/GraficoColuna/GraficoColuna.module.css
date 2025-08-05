@@ -1,0 +1,38 @@
+.coluna__itens {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    background-color: var(--bg-box);
+	border-radius: var(--border-radius);
+	box-shadow: var(--shadow);
+	padding: 2rem;
+    box-sizing: content-box;
+}
+
+.coluna__item {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+}
+
+.coluna__total {
+    width: 2rem;
+    background-color: var(--cinza2);
+    display: flex;
+    overflow: hidden;
+    align-items: end;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.coluna__parcial {
+    border-radius: 8px;
+    width: 80%;
+    background-color: var(--accent-color);
+    animation: entrada 1s forwards;
+}
+
+@keyframes entrada {
+    from {height: 0;}
+}

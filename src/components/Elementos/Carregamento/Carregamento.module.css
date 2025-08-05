@@ -1,0 +1,72 @@
+.container {
+	position: fixed;
+	inset: 0;
+	z-index: 999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.6s ease-in-out;
+}
+
+.sombra {
+	position: fixed;
+	inset: 0;
+	z-index: 1000;
+	background-color: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(2px);
+}
+
+.caixaCarregando {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    z-index: 1100;
+}
+
+.carregando {
+    font-size: 2rem;
+    line-height: 1.2;
+    color: white;
+}
+
+.load {
+	height: 50px;
+	width: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@keyframes loading {
+	0% {
+		height: 100%;
+	}
+
+	50% {
+		height: 20px;
+        /* background-color: var(--azul-escuro); */
+	}
+
+	100% {
+		height: 100%;
+	}
+}
+
+.linha {
+	width: 20px;
+	background-color: var(--azul-medio);
+	border-radius: var(--border-radius);
+}
+
+.linha:nth-child(1) {
+	animation: loading 1.5s 0s infinite;
+}
+
+.linha:nth-child(2) {
+	animation: loading 1.5s 0.5s infinite;
+}
+
+.linha:nth-child(3) {
+	animation: loading 1.5s 1s infinite;
+}

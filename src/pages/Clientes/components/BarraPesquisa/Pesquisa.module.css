@@ -1,0 +1,38 @@
+.pesquisar {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    padding-left: .5rem;
+    background-color: var(--inputbg);
+    border: 1px solid var(--cinza);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-block: 1rem;
+
+    &:has(input:focus) {
+        outline: 3px solid var(--accent-color);
+    }
+}
+
+.input {
+    font-size: 1rem;
+    padding: .5rem;
+    color: var(--texto);
+    flex: 1;
+    background-color: transparent;
+
+    &:focus {
+        outline: none;
+    }
+    
+    &::placeholder {
+        font-style: italic;
+        color: var(--texto);
+        opacity: .65;
+    }
+}
+
+.pesquisar__ico {
+    opacity: .5;
+}
+

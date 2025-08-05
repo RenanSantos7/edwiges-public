@@ -1,0 +1,10 @@
+.sistemas__box {
+	
+	width: max(20%, 280px);
+
+	/* background */
+	background-repeat: no-repeat;
+	background-size: auto 150px;
+	background-position: 90% 90%;
+}
+

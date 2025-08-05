@@ -1,0 +1,29 @@
+.tabelaContainer {
+    border: 1px solid var(--cinza);
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.tabela {
+    width: 100%;
+}
+
+.tabela td,
+.tabela th {
+    padding: .8rem 1rem;
+}
+
+.tabela th {
+    background-color: var(--azul-escuro);
+    color: white;
+    position: sticky;
+    top: -22px;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: var(--cinza2);
+}
+
+.tabela td.centralizado {
+    text-align: center;
+}

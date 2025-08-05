@@ -1,0 +1,11 @@
+.flexBox {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+}
+
+.text {
+    line-height: 1.2;
+    margin-bottom: .5em;
+    font-size: 1.1rem;
+}

@@ -1,0 +1,15 @@
+.container {
+    height: calc(var(--alturaHeader) - var(--alturaNav));
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding-inline: 1.5rem;
+}
+
+.logo {
+    img {
+        height: 55px;
+        width: unset;
+    }
+}

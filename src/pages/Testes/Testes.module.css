@@ -1,0 +1,17 @@
+.testes {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem
+}
+
+.testesContainer {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.acoes {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}

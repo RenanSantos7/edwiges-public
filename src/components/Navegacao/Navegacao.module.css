@@ -1,0 +1,14 @@
+.menuPrincipal {
+    background-color: var(--azul-escuro);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: var(--alturaNav);
+    padding-inline: 1.5rem;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+}

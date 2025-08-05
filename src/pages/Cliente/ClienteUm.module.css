@@ -1,0 +1,18 @@
+.cliente__cabecalho,
+.cliente__procedimento__cabecalho {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 2rem;
+}
+
+.cliente__cabecalho h2 {
+    margin: 0;
+}
+
+.cliente__procedimentos__titulo {
+    font-size: 1.9rem;
+    font-weight: 500;
+}

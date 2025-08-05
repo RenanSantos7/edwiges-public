@@ -1,0 +1,40 @@
+.inputContainer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.checado {
+    font-style: italic;
+    text-decoration: line-through;
+    opacity: .75;
+}
+
+.input {
+    display: none;
+}
+
+.checkbox {
+    position: relative;
+    width: 1em;
+    height: 1em;
+    border: 2px solid var(--accent-color);
+    border-radius: 2px;
+}
+
+.input:checked + .checkbox {
+    background-color: var(--accent-color);
+}
+
+.input:checked + .checkbox::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -1px;
+    left: 30%;
+    width: 2px;
+    height: 8px;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    transform: rotate(45deg);
+}

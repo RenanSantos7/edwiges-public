@@ -1,0 +1,19 @@
+.modalTitulo {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.modalTexto {
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.divBotoes {
+    background-color: var(--cinza);
+    margin: -2rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: end;
+}

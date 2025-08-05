@@ -1,0 +1,68 @@
+.select {
+	position: relative;
+	flex-grow: 1;
+}
+
+.label {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+}
+
+.titulo {
+	font-weight: 600;
+}
+
+.inputWrapper {
+	border: 1px solid var(--cinza);
+	font-size: 1em;
+	border-radius: var(--border-radius-menor);
+	background-color: var(--inputbg);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.input {
+	background-color: transparent;
+	padding: 0.5rem;
+	flex: 1;
+	
+	&:focus {
+		outline: none;
+		user-select: none;
+	}
+}
+
+.icone {
+	padding: 0.5rem;
+	border-radius: var(--border-radius-menor);
+	transition: ease-in-out .6s;
+
+	&:hover {
+		background-color: var(--cinza2);
+	}
+}
+
+.listaOpcoes {
+	border: 1px solid var(--cinza);
+	background-color: var(--bg-box);
+	border-radius: var(--border-radius-menor);
+	list-style: none;
+	position: absolute;
+	width: 100%;
+	left: -1.1rem;
+	z-index: 10;
+}
+
+.opcao {
+	cursor: pointer;
+	padding-block: 0.5rem;
+	padding-inline: 1ch 2ch;
+	
+	&:hover {
+		background-color: var(--accent-color);
+		color: white;
+	}
+}
+

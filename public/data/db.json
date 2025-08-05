@@ -1,0 +1,358 @@
+{
+  "clientes": [
+    {
+      "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+      "nome": "João Silva",
+      "nacionalidade": "brasileiro",
+      "estadoCivil": "solteiro",
+      "profissao": "engenheiro",
+      "rg": "12.345.678 SSP/PI",
+      "cpf": "123.456.789-00",
+      "endereco": "Rua das Flores, 123, Bairro Central",
+      "telefone": "(86) 99999-0001",
+      "origem": "Clientes",
+      "cidade": "Parnaíba/PI",
+      "financeiro": "Pendente",
+      "email": "joao.silva@email.com",
+      "observacao": ""
+    },
+    {
+      "id": "3c6e0b8a-9e3f-4f7f-9b9c-df1d4a9e5fb1",
+      "nome": "Maria Oliveira",
+      "nacionalidade": "brasileira",
+      "estadoCivil": "casada",
+      "profissao": "professora",
+      "rg": "23.456.789 SSP/PI",
+      "cpf": "234.567.890-11",
+      "endereco": "Av. Brasil, 456, Bairro São João",
+      "telefone": "(86) 98888-1112",
+      "origem": "Família",
+      "cidade": "Luís Correia/PI",
+      "financeiro": "Quitado",
+      "email": "maria.oliveira@email.com",
+      "observacao": "Prefere contato por email"
+    },
+    {
+      "id": "23a9e1a5-8b44-4f5b-a677-6f470eb8a87f",
+      "nome": "Carlos Santos",
+      "nacionalidade": "brasileiro",
+      "estadoCivil": "divorciado",
+      "profissao": "motorista",
+      "rg": "34.567.890 SSP/PI",
+      "cpf": "345.678.901-22",
+      "endereco": "Rua das Palmeiras, 789, Centro",
+      "telefone": "(86) 97777-2223",
+      "origem": "Amigos",
+      "cidade": "Parnaíba/PI",
+      "financeiro": "Em débito",
+      "email": "carlos.santos@email.com",
+      "observacao": ""
+    },
+    {
+      "id": "7b6db694-4656-4c17-adbb-c3b1e4d77d9a",
+      "nome": "Ana Paula",
+      "nacionalidade": "brasileira",
+      "estadoCivil": "viúva",
+      "profissao": "advogada",
+      "rg": "45.678.901 SSP/PI",
+      "cpf": "456.789.012-33",
+      "endereco": "Travessa Nova, 321, Bairro Jardim",
+      "telefone": "(86) 96666-3334",
+      "origem": "Clientes",
+      "cidade": "Parnaíba/PI",
+      "financeiro": "Em pagamento",
+      "email": "ana.paula@email.com",
+      "observacao": ""
+    },
+    {
+      "id": "98d27f74-1a17-4f37-9ba0-0e7cea505f7b",
+      "nome": "Roberto Lima",
+      "nacionalidade": "brasileiro",
+      "estadoCivil": "convivente",
+      "profissao": "mecânico",
+      "rg": "56.789.012 SSP/PI",
+      "cpf": "567.890.123-44",
+      "endereco": "Rua das Acácias, 654, Bairro Nova Parnaíba",
+      "telefone": "(86) 95555-4445",
+      "origem": "Outros",
+      "cidade": "Parnaíba/PI",
+      "financeiro": "A receber",
+      "email": "roberto.lima@email.com",
+      "observacao": "Contatar semanalmente"
+    },
+    {
+      "id": "d5a9b7e9-2b5d-4579-b0a8-e4a1a8e5a234",
+      "nome": "Amanda Costa",
+      "nacionalidade": "brasileira",
+      "estadoCivil": "solteira",
+      "profissao": "designer",
+      "rg": "67.123.456 SSP/PI",
+      "cpf": "678.901.234-55",
+      "endereco": "Rua das Acácias, 123, Bairro Jardim",
+      "telefone": "(86) 94444-5555",
+      "origem": "Clientes",
+      "cidade": "Parnaíba/PI",
+      "financeiro": "Pendente",
+      "email": "amanda.costa@email.com",
+      "observacao": ""
+    },
+    {
+      "id": "e3911a25-8c7b-4fc7-9d17-3e7578b84672",
+      "nome": "Bruno Ferreira",
+      "nacionalidade": "brasileiro",
+      "estadoCivil": "casado",
+      "profissao": "analista de sistemas",
+      "rg": "78.234.567 SSP/PI",
+      "cpf": "789.012.345-66",
+      "endereco": "Av. Central, 789, Bairro Centro",
+      "telefone": "(86) 93333-2222",
+      "origem": "Amigos",
+      "cidade": "Luís Correia/PI",
+      "financeiro": "Quitado",
+      "email": "bruno.ferreira@email.com",
+      "observacao": ""
+    },
+    {
+      "id": "f77231ac-9857-475a-a8ae-cdc3e9c85c50",
+      "nome": "Carla Mendes",
+      "nacionalidade": "brasileira",
+      "estadoCivil": "divorciada",
+      "profissao": "professora",
+      "rg": "89.345.678 SSP/PI",
+      "cpf": "890.123.456-77",
+      "endereco": "Rua das Palmeiras, 456, Bairro Nova Parnaíba",
+      "telefone": "(86) 92222-1111",
+      "origem": "Família",
+      "cidade": "Parnaíba/PI",
+      "financeiro": "Em débito",
+      "email": "carla.mendes@email.com",
+      "observacao": ""
+    },
+    {
+      "id": "a0e92f43-3da5-4de9-bf6d-68f3f9dff9a2",
+      "nome": "Diego Almeida",
+      "nacionalidade": "brasileiro",
+      "estadoCivil": "solteiro",
+      "profissao": "jornalista",
+      "rg": "90.456.789 SSP/PI",
+      "cpf": "901.234.567-88",
+      "endereco": "Av. Brasil, 321, Bairro Centro",
+      "telefone": "(86) 91111-0000",
+      "origem": "Clientes",
+      "cidade": "Parnaíba/PI",
+      "financeiro": "Pendente",
+      "email": "diego.almeida@email.com",
+      "observacao": ""
+    },
+    {
+      "id": "bba8dc3f-9b12-4e42-b9f1-168f5e4972ad",
+      "nome": "Eliana Rocha",
+      "nacionalidade": "brasileira",
+      "estadoCivil": "casada",
+      "profissao": "advogada",
+      "rg": "91.567.890 SSP/PI",
+      "cpf": "012.345.678-99",
+      "endereco": "Rua das Acácias, 987, Bairro São João",
+      "telefone": "(86) 90000-1111",
+      "origem": "Outros",
+      "cidade": "Luís Correia/PI",
+      "financeiro": "Quitado",
+      "email": "eliana.rocha@email.com",
+      "observacao": ""
+    }
+  ],
+  "procedimentos": [
+    {
+      "id": "e8b8efc5-3ad9-4b02-95f1-25e876a23a76",
+      "procedimento": "PROC00001",
+      "numCNJ": "1002562-55.2019.4.01.4002",
+      "cliente": "João Silva",
+      "juizo": "SSJ Parnaíba",
+      "tribunal": "trf1",
+      "polo": "Ativo",
+      "natureza": "Servidor Público",
+      "esfera": "Judicial",
+      "observacao": ""
+    },
+    {
+      "id": "a2c2839e-7f80-4f05-9e6a-731ed8ebdffa",
+      "procedimento": "PROC00002",
+      "numCNJ": "0803243-47.2020.8.18.0031",
+      "cliente": "Carlos Santos",
+      "juizo": "2ª Cv Parnaíba",
+      "tribunal": "tjpi",
+      "polo": "Ativo",
+      "fase": "Cumprimento de sentença",
+      "natureza": "Cobrança",
+      "esfera": "Judicial",
+      "ultMov": "Concluso para despacho",
+      "DUM": "16-10-2023",
+      "observacao": ""
+    },
+    {
+      "id": "bc45e1a6-5a88-43df-b497-9e5ff5d6a2f7",
+      "procedimento": "PROC00003",
+      "numCNJ": "0001112-23.2021.5.22.0101",
+      "cliente": "Ana Paula",
+      "juizo": "VTPHB",
+      "tribunal": "trt22",
+      "polo": "Ativo",
+      "DUM": "07-11-2022",
+      "fase": "Sentenciado",
+      "natureza": "Trabalhista",
+      "esfera": "Judicial",
+      "observacao": ""
+    },
+    {
+      "id": "f0d9bfb8-9d88-4c3c-9e04-45e7bd0f07d5",
+      "procedimento": "PROC00005",
+      "numCNJ": "0801638-66.2020.8.18.0031",
+      "cliente": "Roberto Lima",
+      "juizo": "3ª Cv Parnaíba",
+      "tribunal": "tjpi",
+      "polo": "Passivo",
+      "natureza": "Alimentos",
+      "esfera": "Judicial",
+      "observacao": ""
+    },
+    {
+      "id": "ce8d20d1-2ced-47e4-bdb1-071c0429919c",
+      "procedimento": "PROC00006",
+      "numCNJ": "1009383-38.2019.4.01.3400",
+      "cliente": "João Silva",
+      "juizo": "SSJ Parnaíba",
+      "tribunal": "trf1",
+      "polo": "Ativo",
+      "natureza": "Obrigação de Fazer",
+      "esfera": "Judicial",
+      "observacao": ""
+    },
+    {
+      "id": "27c448fe-3c62-4eaa-9c48-12d55a2060f0",
+      "procedimento": "PROC00036",
+      "numCNJ": "0809999-12.2023.8.18.0123",
+      "cliente": "Amanda Costa",
+      "juizo": "JECC Parnaíba",
+      "tribunal": "tjpi",
+      "polo": "Ativo",
+      "fase": "Transitado em julgado",
+      "natureza": "Reparação Civil",
+      "esfera": "Judicial",
+      "observacao": ""
+    },
+    {
+      "id": "dcee8f8d-5373-4348-9b2b-bbe7cf1e5f25",
+      "procedimento": "PROC00037",
+      "numCNJ": "0912345-67.2024.8.18.0031",
+      "cliente": "Bruno Ferreira",
+      "juizo": "2ª Cv Parnaíba",
+      "tribunal": "tjpi",
+      "polo": "Passivo",
+      "fase": "Cumprimento de sentença",
+      "natureza": "Cobrança",
+      "esfera": "Judicial",
+      "observacao": "Aguardando documentação"
+    },
+    {
+      "id": "f3512aeb-1357-4035-b0f5-4e3198e37c77",
+      "procedimento": "PROC00038",
+      "numCNJ": "0923456-78.2024.8.18.0042",
+      "cliente": "Carla Mendes",
+      "juizo": "TJPI",
+      "tribunal": "tjpi",
+      "polo": "Ativo",
+      "fase": "Em 2ª instância",
+      "natureza": "Mandado de Segurança",
+      "esfera": "Judicial",
+      "observacao": ""
+    },
+    {
+      "id": "3c91291f-8bb9-4c3b-8102-c5ea4bebf942",
+      "procedimento": "PROC00039",
+      "numCNJ": "0934567-89.2024.8.18.0053",
+      "cliente": "Diego Almeida",
+      "juizo": "SSJ Parnaíba",
+      "tribunal": "trf1",
+      "polo": "Ativo",
+      "fase": "Postulatória",
+      "natureza": "Consumidor",
+      "esfera": "Judicial",
+      "observacao": ""
+    },
+    {
+      "id": "7f340679-8a77-4c1c-b4e0-6d3e7e020c94",
+      "procedimento": "PROC00040",
+      "numCNJ": "0945678-90.2024.8.18.0064",
+      "cliente": "Eliana Rocha",
+      "juizo": "JECC Parnaíba",
+      "tribunal": "tjpi",
+      "polo": "Passivo",
+      "fase": "Saneamento",
+      "natureza": "Fazenda Pública",
+      "esfera": "Judicial",
+      "observacao": "Intimação em andamento"
+    },
+    {
+      "id": "56e47579-5d7c-4e9f-a99c-69f2d1b30e7b",
+      "procedimento": "PROC00041",
+      "numCNJ": "0956789-01.2024.8.18.0075",
+      "cliente": "Amanda Costa",
+      "juizo": "3ª Cv Parnaíba",
+      "tribunal": "tjpi",
+      "polo": "Ativo",
+      "fase": "Concluso para julgamento",
+      "natureza": "Alimentos",
+      "esfera": "Judicial",
+      "observacao": ""
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "0",
+      "email": "renansantos.jus@gmail.com",
+      "senha": "14769530",
+      "nome": "Renan",
+      "sobrenome": "Albuquerque Santos",
+      "genero": "Masculino",
+      "tratamento": "Dr.",
+      "cpf": "03795751322",
+      "cargo": "Advogado"
+    }
+  ],
+  "tarefas": [
+    {
+      "id": "0",
+      "titulo": "Tarefa de teste",
+      "tags": [],
+      "completa": true
+    },
+    {
+      "id": "1",
+      "titulo": "teste",
+      "tags": [
+        {
+          "id": 0,
+          "titulo": "#tag"
+        }
+      ],
+      "completa": true
+    },
+    {
+      "id": "2",
+      "titulo": "teste1",
+      "tags": [],
+      "completa": false
+    },
+    {
+      "id": "3",
+      "titulo": "teste2",
+      "tags": [
+        {
+          "id": 0,
+          "titulo": "#tag"
+        }
+      ],
+      "completa": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+.tabelaContainer {
+    overflow: hidden;
+    border: 1px solid var(--cinza);
+    border-radius: 8px;
+    width: unset;
+    width: fit-content;
+}
+
+.tabela__dados,
+.tabela__head {
+    line-height: 1.5;
+    padding: .2rem 1ch;
+}
+
+.tabela__linha:nth-child(even) {
+    background-color: var(--cinza2);
+}
+
+.tabela__head {
+    font-weight: 700;
+    text-align: right;
+    background-color: var(--cinza);
+}
